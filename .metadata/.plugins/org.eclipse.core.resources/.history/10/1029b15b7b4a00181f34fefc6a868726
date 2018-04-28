@@ -1,0 +1,12 @@
+package sh.cyber.parent.business;
+
+public class WelcomeMessageImplementation implements WelcomeMessage{
+
+	@Override
+	public String greet() {
+		return "This is from business Layer";
+	}
+	
+	
+
+}

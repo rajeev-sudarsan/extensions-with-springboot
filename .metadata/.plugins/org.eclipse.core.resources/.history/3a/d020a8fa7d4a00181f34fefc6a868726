@@ -1,0 +1,15 @@
+package sh.cyber.parent.business;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class WelcomeMessageImplementation implements WelcomeMessage{
+
+	@Override
+	public String greet() {
+		return "This is from business Layer";
+	}
+	
+	
+
+}

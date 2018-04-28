@@ -1,0 +1,8 @@
+package sh.cyber.parent.business;
+
+import sh.cyber.parent.business.extension.point.OrderQuantity;
+
+public class WelcomeMessageCustom implements WelcomeMessage{
+
+
+}

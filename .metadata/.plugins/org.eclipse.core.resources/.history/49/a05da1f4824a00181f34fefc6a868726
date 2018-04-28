@@ -1,0 +1,14 @@
+package sh.cyber.parent.business.extension;
+
+
+import org.springframework.stereotype.Component;
+
+
+@Component("AmcOrderQuantity")
+
+public class AmcOrderQuantity implements OrderQuantity {
+
+  public String getInfo() {
+    return "I am extended method";
+  }
+}

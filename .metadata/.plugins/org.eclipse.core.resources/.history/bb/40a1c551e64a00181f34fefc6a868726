@@ -1,0 +1,12 @@
+package sh.cyber.parent.business;
+
+import sh.cyber.parent.business.extension.point.OrderQuantity;
+
+public class WelcomeMessageCustom implements OrderQuantity{
+
+	public String getInfo() {
+		// TODO Auto-generated method stub
+		return "the Other Spring w"
+	}
+
+}

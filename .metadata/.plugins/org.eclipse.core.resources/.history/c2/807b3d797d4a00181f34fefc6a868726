@@ -1,0 +1,5 @@
+package sh.cyber.parent.business.extension.point;
+
+public interface OrderQuantity {
+
+}

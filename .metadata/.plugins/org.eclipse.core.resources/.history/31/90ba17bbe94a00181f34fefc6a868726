@@ -1,0 +1,5 @@
+package sh.cyber.config;
+
+public class Config {
+
+}

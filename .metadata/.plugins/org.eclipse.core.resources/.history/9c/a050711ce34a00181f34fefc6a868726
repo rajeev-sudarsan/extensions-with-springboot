@@ -1,0 +1,6 @@
+package sh.cyber.parent.business.extension;
+
+public interface WelcomeMessageExtention {
+	String greetExtension();
+
+}

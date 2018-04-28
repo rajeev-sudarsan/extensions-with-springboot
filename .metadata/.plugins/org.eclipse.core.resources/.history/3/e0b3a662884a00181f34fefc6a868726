@@ -1,0 +1,21 @@
+package sh.cyber.parent.business;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import sh.cyber.parent.business.extension.point.OrderQuantity;
+
+@Component
+public class WelcomeMessageImplementation implements WelcomeMessage{
+	
+	@Autowired
+	OrderQuantity orderquantity;
+
+	@Override
+	public String greet() {
+		return "This is from business Layer" + orderquantity.getInfo();
+	}
+	
+	
+
+}
